@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Caio Yuiti Sakaguti G932048 Gustavo Henrique Nunes RA:R033JH0 Kayron Nascimento Doth RA:G8937F5 Lucas Vieira Campos RA:R1022H4 Paulo Roberto de Oliveira Filho R0930C0">
+    <meta name="description" content="APS - HTML 5, CSS3 e JS">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>EcoLife</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="banner-content">
+          <h1>EcoLife</h1>
+          <p>Práticas sustentáveis em suas vidas diárias.</p>
+        </div>
+    </header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+        <li style="float: right;"><a href="sobre.html">Sobre nós</a></li>
+    </ul>
+    <div class="contato-title"><h1>Entre em contato conosco</h1></div>
+    <div class="contato-content">
+        <div class="form">
+            <form id="form" action="#" method="post">
+                <div class="title"><h2>Compartilhe sua experiência</h2></div>
+                <div class="input-group">    
+                    <div class="input-box">
+                        <label for="username">Nome: </label>
+                        <input type="text" id="username" placeholder="Digite seu nome" required>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Celular: </label>
+                        <input type="tel" id="number" placeholder="(XX)XXXXX-XXXX" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" required>
+                    </div>
+                    <div class="input-box" id="textarea">
+                        <label for="comment">Comentário: </label>
+                        <textarea id="comment" name="name" placeholder="Conte-nos a sua experiência:" required></textarea>
+                    </div>
+                    <div class="input-button">
+                        <input type="reset">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--<script src="assets/scripts.js"></script>-->
+</body>
+</html>
